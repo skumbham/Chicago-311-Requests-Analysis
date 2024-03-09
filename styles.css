@@ -1,0 +1,88 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #004080;
+    color: white;
+    margin: 0; 
+} 
+
+select#statusDropdown {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.grid {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.left-column, .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.visualization {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visualization.double {
+    margin-bottom: 0; 
+}
+
+.button-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.button-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.button-container button:focus {
+    background-color: darkblue;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        height: auto;
+    }
+    .visualization.double {
+        margin-bottom: 10px; 
+    }
+}
