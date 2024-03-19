@@ -2,7 +2,7 @@
 
 ## Introduction
 
-"Trends in The Windy City" is a dynamic data visualization project that showcases Chicago's 311 service requests. This interactive dashboard, accessible at [skumbham.github.io/Chicago-Crime-Analysis/](https://skumbham.github.io/Chicago-Crime-Analysis/), invites users to explore and analyze the city's service request data through engaging and informative visualizations.
+"Trends in The Windy City" is a dynamic data visualization project that showcases Chicago's 311 service requests. This interactive dashboard, accessible at [skumbham.github.io/Chicago-Crime-Analysis/](https://skumbham.github.io/Chicago-311-Requests-Analysis/), invites users to explore and analyze the city's service request data through engaging and informative visualizations.
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ Utilizing Vega-Lite, our project animates the complex data from Chicago's 311 se
 
 ## Live Demo
 
-Experience our dynamic visualization system live at: [skumbham.github.io/Chicago-Crime-Analysis/](https://skumbham.github.io/Chicago-Crime-Analysis/)
+Experience our dynamic visualization system live at: [skumbham.github.io/Chicago-Crime-Analysis/](https://skumbham.github.io/Chicago-311-Requests-Analysis/)
 
 ## Setup for Local Development
 
